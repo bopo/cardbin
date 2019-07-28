@@ -1,6 +1,6 @@
-=======
+
 银行卡号验证库
-=======
+==================
 
 
 .. image:: https://img.shields.io/pypi/v/cardbin.svg
@@ -37,7 +37,7 @@
     Out: {'bank': '交通银行', 'type': '太平洋借记卡'}
 
 部署[docker]
---------
+----------------
 .. code-block:: console
 
     $ cd docker
@@ -51,7 +51,8 @@
 * 支持 zeromq 和 http 方式访问。
 * docker 部署独立服务。
 
-Credits
+赞助
 ---------
 
-
+.. image:: docs/IMG_2459.JPG
+.. image:: docs/IMG_2458.JPG
