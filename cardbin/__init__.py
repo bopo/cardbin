@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-__version__ = '0.1.3'
-__author__ = """bopo.wang"""
+__version__ = '1.0.0'
+__author__ = 'bopowang'
 __email__ = 'ibopo@126.com'
 

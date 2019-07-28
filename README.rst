@@ -23,20 +23,31 @@
 
 安装
 --------
-pip install cardbin
+.. code-block:: console
+
+    $ pip install cardbin
 
 使用
 --------
+.. code-block:: console
+    from cardbin.cardbin import valid
+    valid('6222600260001072444')
 
-from cardbin.cardbin import valid
-valid('6222600260001072444')
+    Out: {'bank': '交通银行', 'type': '太平洋借记卡'}
 
-Out: {'bank': '交通银行', 'type': '太平洋借记卡'}
+部署[docker]
+--------
+.. code-block:: console
+    $ cd docker
+    $ docker-compose up
 
 功能
 --------
 
-* 检查一个银行卡号是哪个银行，什么卡
+* 完全支持 python3。 python2 将不再支持。
+* 检查一个银行卡号是哪个银行，什么卡。
+* 支持 zeromq 和 http 方式访问。
+* docker 部署独立服务。
 
 Credits
 ---------
