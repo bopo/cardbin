@@ -29,7 +29,7 @@
 
 使用
 --------
-.. code-block:: console
+.. code-block:: python
 
     from cardbin.cardbin import valid
     valid('6222600260001072444')
