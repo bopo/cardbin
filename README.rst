@@ -18,10 +18,20 @@
      :alt: Updates
 
 
-
 * 开源协议: MIT license
 * 在线文档: https://cardbin.readthedocs.io.
 
+安装
+--------
+pip install cardbin
+
+使用
+--------
+
+from cardbin.cardbin import valid
+valid('6222600260001072444')
+
+Out: {'bank': '交通银行', 'type': '太平洋借记卡'}
 
 功能
 --------
