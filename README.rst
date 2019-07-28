@@ -54,6 +54,9 @@
 赞助
 ---------
 
-.. image:: docs/IMG_2459.JPG
-
 .. image:: docs/IMG_2458.JPG
+        :alt: 微信支付
+
+.. image:: docs/IMG_2459.JPG
+        :alt: 支付宝
+
