@@ -56,7 +56,10 @@
 
 .. image:: docs/IMG_2458.JPG
         :alt: 微信支付
+        :width: 180 px
+        :align: left
 
 .. image:: docs/IMG_2459.JPG
         :alt: 支付宝
-
+        :width: 180 px
+        :align: left
